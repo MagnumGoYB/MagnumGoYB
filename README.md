@@ -24,7 +24,7 @@ I am a person who likes to learn and discover surprises on GitHub.
 
 [![Years Badge](https://badges.pufler.dev/years/MagnumGoYB)](https://badges.pufler.dev) [![Repos Badge](https://badges.pufler.dev/repos/MagnumGoYB)](https://badges.pufler.dev) [![Visits Badge](https://badges.pufler.dev/visits/MagnumGoYB/MagnumGoYB)](https://badges.pufler.dev)  
 
-[![MagnumGoYB's GitHub stats](https://github-readme-stats.vercel.app/api?username=MagnumGoYB&theme=dark)](https://github.com/MagnumGoYB/github-readme-stats)  
+[![MagnumGoYB's GitHub stats](https://github-readme-stats.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true)](https://github.com/MagnumGoYB/github-readme-stats)  
   
   
 <!--
