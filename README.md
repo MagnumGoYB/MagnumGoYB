@@ -1,4 +1,4 @@
-### Hi there, I'm [MagnumGoYB](https://github.com/MagnumGoYB). 👋
+### Hi there, I'm [YB](https://github.com/MagnumGoYB). 👋
 
 I am a person who likes to learn and discover surprises on GitHub.
 
