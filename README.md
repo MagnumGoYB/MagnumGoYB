@@ -16,7 +16,9 @@ I am a person who likes to learn and discover surprises on GitHub.
 
 --- 
 
-[![MagnumGoYB's GitHub stats](https://github-readme-stats.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true)](https://github.com/MagnumGoYB/github-readme-stats)  
+<!-- [![MagnumGoYB's GitHub stats](https://github-readme-stats.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true)](https://github.com/MagnumGoYB/github-readme-stats)  -->
+
+<img src="https://github-readme-stats-fast.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true" />
   
   
 <!--
