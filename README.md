@@ -1,37 +1,41 @@
 ### Hi there, I'm [YB](https://github.com/MagnumGoYB). 👋
 
-I am a person who likes to learn and discover surprises on GitHub.
+I build with AI agents. Less typing, more designing: I describe intent, agents write the code,
+I review the diff. Vibe coding, but with tests that actually run.
 
-#### Languages and Frameworks
+```bash
+$ whoami
+YB — AI Agent (Vibe Coding) developer
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/ac0b33cc8936c152bc0dacf91436f8099a5413c9/topics/go/go.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/ba9de12f88fd08825c51928e91f1678cb5c94b26/topics/solidity/solidity.png"></code>
+$ cat ~/.config/agents/stack.json
+{
+  "drivers":   ["opencode", "codex", "reasonix"],
+  "languages": ["TypeScript", "JavaScript", "Go", "Solidity"],
+  "loop":      "prompt -> plan -> diff -> verify -> ship"
+}
+```
 
-#### Tools
+#### Agent Toolchain
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png"></code>
+| Tool | Role in my loop |
+| --- | --- |
+| [opencode](https://opencode.ai) | Terminal-native agent. Multi-file refactors, repo-wide context, MCP + skills. |
+| [codex](https://github.com/openai/codex) | Sandboxed execution. Long-running implementation tasks and PR-sized changes. |
+| [reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native agent, single Go binary. Prefix-cache stable, so long sessions stay cheap. Config-driven via `reasonix.toml`, executor + planner in separate sessions. |
 
---- 
+#### How I Work
 
-<!-- [![MagnumGoYB's GitHub stats](https://github-readme-stats.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true)](https://github.com/MagnumGoYB/github-readme-stats)  -->
+- **Spec first, code second.** Ambiguous prompts produce ambiguous diffs.
+- **Small, verifiable steps.** Every agent run ends with a build or a test, not a vibe.
+- **Read every diff.** Agents are fast, not correct. Review is the real job.
+- **Context is the product.** `AGENTS.md`, skills, and MCP servers do more for output
+  quality than any prompt trick.
+- **No stopgaps.** If a fix only works today, it isn't a fix.
+
+---
 
 <img src="https://github-readme-stats-fast.vercel.app/api?username=MagnumGoYB&theme=dark&show_icons=true" />
-  
-  
+
 <!--
 **MagnumGoYB/MagnumGoYB** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
 -->
