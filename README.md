@@ -21,7 +21,7 @@ $ cat ~/.config/agents/stack.json
   ],
   "delivery": ["cli", "homebrew"],
   "verification": ["test-or-build", "diff-review"],
-  "loop": "☕ coffee -> 💬 prompt -> 🧭 plan -> 💻 code -> 🔍 diff -> ✅ verify -> 🚀 ship -> 😴 sleep -> 🔁 repeat"
+  "loop": "coffee -> prompt -> plan -> code -> diff -> verify -> ship -> sleep -> repeat"
 }
 ```
 
