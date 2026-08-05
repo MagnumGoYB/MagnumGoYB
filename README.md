@@ -15,6 +15,12 @@ $ cat ~/.config/agents/stack.json
 {
   "drivers":   ["opencode", "reasonix", "codex"],
   "languages": ["Go", "TypeScript", "JavaScript", "Solidity"],
+  "capabilities": [
+    "local-agent-memory",
+    "token-cost-observability"
+  ],
+  "delivery": ["cli", "homebrew"],
+  "verification": ["test-or-build", "diff-review"],
   "loop": "☕ coffee -> 💬 prompt -> 🧭 plan -> 💻 code -> 🔍 diff -> ✅ verify -> 🚀 ship -> 😴 sleep -> 🔁 repeat"
 }
 ```
