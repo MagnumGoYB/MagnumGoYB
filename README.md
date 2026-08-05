@@ -13,9 +13,9 @@ YB — AI Agent (Vibe Coding) developer
 
 $ cat ~/.config/agents/stack.json
 {
-  "drivers":   ["opencode", "codex", "reasonix"],
-  "languages": ["TypeScript", "JavaScript", "Go", "Solidity"],
-  "loop":      "prompt -> plan -> diff -> verify -> ship"
+  "drivers":   ["opencode", "reasonix", "codex"],
+  "languages": ["Go", "TypeScript", "JavaScript", "Solidity"],
+  "loop": "☕ coffee -> 💬 prompt -> 🧭 plan -> 💻 code -> 🔍 diff -> ✅ verify -> 🚀 ship -> 😴 sleep -> 🔁 repeat"
 }
 ```
 
@@ -24,18 +24,18 @@ $ cat ~/.config/agents/stack.json
 | Tool | Role in my loop / 在我的工作流中的角色 |
 | --- | --- |
 | [opencode](https://opencode.ai) | Terminal-native agent for multi-file refactors, repo-wide context, MCP, and skills.<br>终端原生 Agent，适合多文件重构、全仓上下文、MCP 与技能扩展。 |
+| [reasonix](http://reasonix.io/) | DeepSeek-native agent in a single Go binary. Stable prefix caching keeps long sessions efficient; `reasonix.toml` separates executor and planner sessions.<br>DeepSeek 原生 Agent，单个 Go 二进制文件。稳定的前缀缓存让长会话保持高效，`reasonix.toml` 将执行与规划会话分离。 |
 | [codex](https://github.com/openai/codex) | Sandboxed execution for long-running implementation work and PR-sized changes.<br>通过沙箱执行长时任务与 PR 级别的代码变更。 |
-| [reasonix](https://github.com/esengine/DeepSeek-Reasonix) | DeepSeek-native agent in a single Go binary. Stable prefix caching keeps long sessions efficient; `reasonix.toml` separates executor and planner sessions.<br>DeepSeek 原生 Agent，单个 Go 二进制文件。稳定的前缀缓存让长会话保持高效，`reasonix.toml` 将执行与规划会话分离。 |
 
 #### Open Source / 开源参与
 
-Selected projects I actively use and contribute to in my AI-native development workflow.
-以下是在 AI 原生开发工作流中持续使用并参与的开源项目。
+Projects I use in my AI-native development workflow.
+以下是在 AI Agent 开发工作流中常用的开源项目。
 
-| Project / 项目 | Focus / 参与方向 |
+| Project / 项目 | Use / 使用方向 |
 | --- | --- |
 | [OpenCode](https://opencode.ai) | Agent workflows, skills, MCP integrations, and developer feedback.<br>Agent 工作流、技能、MCP 集成与开发者反馈。 |
-| [DeepSeek-Reasonix](https://github.com/esengine/DeepSeek-Reasonix) | Configuration, agent workflows, evaluation, and prompt-cache efficiency.<br>配置、Agent 工作流、评测与提示词缓存效率。 |
+| [DeepSeek-Reasonix](http://reasonix.io/) | Configuration, agent workflows, evaluation, and prompt-cache efficiency.<br>配置、Agent 工作流、评测与提示词缓存效率。 |
 
 #### How I Work / 我的工作方式
 
